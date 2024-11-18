@@ -10,3 +10,13 @@ html, body {
 .row {
     height: 100%;
 }
+
+nav {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;  /* Scrollable if content overflows */
+}
