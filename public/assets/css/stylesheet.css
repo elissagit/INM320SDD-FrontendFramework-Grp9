@@ -12,7 +12,9 @@ html, body {
 }
 
 nav {
+    padding-top: 20px;
     height: 100%;
+
 }
 
 main {
@@ -25,7 +27,7 @@ main {
 .nav-item:nth-last-child(2) {
     margin-top: 20px; /* Adds space before the second to last link */
     padding-top: 10px;
-    border-top: 0.25px solid white; /* Adds a white line above the second to last link */
+    border-top: 0.2px solid rgba(255, 255, 255, 0.464); /* Adds a white line above the second to last link */
 }
 
 
