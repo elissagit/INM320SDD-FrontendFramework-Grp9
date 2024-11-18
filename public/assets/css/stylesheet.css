@@ -20,3 +20,12 @@ main {
     padding: 20px;
     overflow-y: auto;  /* Scrollable if content overflows */
 }
+
+
+.nav-item:nth-last-child(2) {
+    margin-top: 20px; /* Adds space before the second to last link */
+    padding-top: 10px;
+    border-top: 0.25px solid white; /* Adds a white line above the second to last link */
+}
+
+
