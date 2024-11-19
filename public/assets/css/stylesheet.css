@@ -34,4 +34,22 @@ main {
 .nav-link i {
     margin-right: 25px; /* Adjust the value as needed */
   }
+ 
   
+  .card:hover {
+    border-color: #007bff; /* Bootstrap's primary blue for border */
+    color: #007bff; /* Change text color to blue */
+    transition: all 0.3s ease; /* Smooth transition for border and text */
+  }
+  
+  /* Ensure that the card's background stays white */
+  .card {
+    background-color: white; /* Set the background to white by default */
+    border: 1px solid #ddd; /* Optional: default border color */
+  }
+
+
+  .card-subtitle {
+    font-size: 1rem; /* Adjust to make it smaller or larger */
+    margin-bottom: 10px; /* Adds space between the subtitle and the number */
+  }
