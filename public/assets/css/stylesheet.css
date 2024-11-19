@@ -54,8 +54,8 @@ main {
  
   
   .hover-card:hover {
-    border-color: #3752ff; /* Bootstrap's primary blue for border */
-    color: #3752ff; /* Change text color to blue */
+    border-color: #007bff; /* Bootstrap's primary blue for border */
+    color: #007bff; /* Change text color to blue */
     transition: all 0.3s ease; /* Smooth transition for border and text */
   }
   
@@ -75,12 +75,12 @@ main {
 
  /* Change subtitle color on hover */
 .hover-card:hover .card-subtitle {
-    color: #3752ff !important; /* Change subtitle text color to blue on hover */
+    color: #007bff !important; /* Change subtitle text color to blue on hover */
   }
   
   /* Optional: Change the title color on hover */
   .hover-card:hover .card-title {
-    color: #3752ff !important; /* Change title text color to blue on hover */
+    color: #007bff !important; /* Change title text color to blue on hover */
   }
 
 
@@ -97,7 +97,7 @@ main {
 .nav-item i{
   opacity: 0.4;
 }
-/* Sidebar Hover Effect */
+/* Very Light Hover Effect with Lighter Opacity */
 .nav-item:hover {
   background-color: rgba(255, 255, 255, 0.039); /* Light background on hover */
 }
@@ -138,8 +138,4 @@ main {
     margin-top: 10px; /* Adjust as needed */
     margin-bottom: 10px;
     font-weight: 300;
-  }
-
-  .text-hover-underline:hover {
-    text-decoration: underline;
   }
