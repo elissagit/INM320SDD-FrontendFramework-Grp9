@@ -126,3 +126,7 @@ nav .d-flex i {
     margin-bottom: 10px;
     font-weight: 300;
   }
+
+  .text-hover-underline:hover {
+    text-decoration: underline;
+  }
