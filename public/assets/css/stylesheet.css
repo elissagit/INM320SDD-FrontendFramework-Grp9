@@ -116,18 +116,18 @@ main {
   opacity: 1;
 }
 
-/* Card Padding */
-.card {
+/* Unresolved Tickets Card Padding */
+.unresolved-tickets-card {
   padding: 20px; /* Adjust as needed */
 }
 
-/* List Group Item Padding */
-.list-group-item {
-  padding: 12px 20px; /* Adjust the vertical and horizontal padding */
+/* Unresolved List Group Item Padding */
+.unresolved-item {
+  padding: 15px 20px; /* Adjust the vertical and horizontal padding */
 }
 
-/* Section Padding (Optional) */
-section {
+/* Unresolved Section Padding (Optional) */
+.unresolved-section {
   padding: 30px 0; /* Adjust the top and bottom padding for the section */
 }
 
