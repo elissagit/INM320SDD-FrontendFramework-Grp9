@@ -116,7 +116,20 @@ main {
   opacity: 1;
 }
 
+/* Card Padding */
+.card {
+  padding: 20px; /* Adjust as needed */
+}
 
+/* List Group Item Padding */
+.list-group-item {
+  padding: 12px 20px; /* Adjust the vertical and horizontal padding */
+}
+
+/* Section Padding (Optional) */
+section {
+  padding: 30px 0; /* Adjust the top and bottom padding for the section */
+}
 
 /* Style for the number */
 .number {
@@ -143,3 +156,6 @@ main {
     margin-bottom: 10px;
     font-weight: 300;
   }
+
+
+
