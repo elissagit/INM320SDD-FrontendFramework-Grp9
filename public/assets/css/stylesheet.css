@@ -91,6 +91,7 @@ main {
     color: white; /* Ensure icons are also white on hover */
 }
 
+<<<<<<< HEAD
 nav .d-flex h6 {
     padding-bottom: 30px; /* Adjust as needed */
 }
@@ -124,3 +125,5 @@ nav .d-flex i {
     margin-bottom: 10px;
     font-weight: 300;
   }
+=======
+>>>>>>> dbe1d45fe62c12246feed063344c236a408d0c0a
