@@ -194,3 +194,11 @@ main {
 .card.tasks-card .card-header small {
   margin-top: 10px; /* Space between the header title and the date */
 }
+
+.profile-img {
+  margin-left: 10px;
+  border: white;
+  width: 30px; 
+  height: 30px; 
+  object-fit: cover; 
+}
