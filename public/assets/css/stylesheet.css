@@ -52,4 +52,5 @@ main {
   .card-subtitle {
     font-size: 1rem; /* Adjust to make it smaller or larger */
     margin-bottom: 10px; /* Adds space between the subtitle and the number */
+   
   }
