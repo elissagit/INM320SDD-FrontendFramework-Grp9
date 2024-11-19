@@ -36,21 +36,32 @@ main {
   }
  
   
-  .card:hover {
+  .hover-card:hover {
     border-color: #007bff; /* Bootstrap's primary blue for border */
     color: #007bff; /* Change text color to blue */
     transition: all 0.3s ease; /* Smooth transition for border and text */
   }
   
   /* Ensure that the card's background stays white */
-  .card {
+  .hover-card {
     background-color: white; /* Set the background to white by default */
     border: 1px solid #ddd; /* Optional: default border color */
   }
 
 
-  .card-subtitle {
+  .hover-card .card-subtitle {
     font-size: 1rem; /* Adjust to make it smaller or larger */
     margin-bottom: 10px; /* Adds space between the subtitle and the number */
-   
+    color: #a0a0a0; /* Set the initial color to light gray */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+
+ /* Change subtitle color on hover */
+.hover-card:hover .card-subtitle {
+    color: #007bff !important; /* Change subtitle text color to blue on hover */
+  }
+  
+  /* Optional: Change the title color on hover */
+  .hover-card:hover .card-title {
+    color: #007bff !important; /* Change title text color to blue on hover */
   }
