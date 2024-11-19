@@ -162,3 +162,35 @@ main {
   }
 
 
+
+
+  /* White background for Today's Trends section */
+.today-trends-section {
+  background-color: #fff; /* White background */
+}
+
+/* Optional: White background for the individual cards within the section */
+.today-trends-card {
+  background-color: #fff; /* White background for the card */
+}
+
+/* Add padding to the Tasks card container */
+.card.tasks-card {
+  padding: 18px; /* Adjust as needed */
+}
+
+/* Padding for list items inside the Tasks card */
+.card.tasks-card .list-group-item {
+  padding: 12px 17px; /* Adjust the vertical and horizontal padding */
+}
+
+/* Optional: Increase padding in the card-header for better spacing */
+.card.tasks-card .card-header {
+  padding: 16px 20px; /* Adjust header padding */
+  margin-bottom: 17px; /* Add space below the header */
+}
+
+/* Optional: Add extra space between the two lines (header and list) */
+.card.tasks-card .card-header small {
+  margin-top: 10px; /* Space between the header title and the date */
+}
