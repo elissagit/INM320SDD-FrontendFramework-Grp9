@@ -54,8 +54,8 @@ main {
  
   
   .hover-card:hover {
-    border-color: #007bff; /* Bootstrap's primary blue for border */
-    color: #007bff; /* Change text color to blue */
+    border-color: #3752ff; /* Bootstrap's primary blue for border */
+    color: #3752ff; /* Change text color to blue */
     transition: all 0.3s ease; /* Smooth transition for border and text */
   }
   
@@ -75,12 +75,12 @@ main {
 
  /* Change subtitle color on hover */
 .hover-card:hover .card-subtitle {
-    color: #007bff !important; /* Change subtitle text color to blue on hover */
+    color: #3752ff !important; /* Change subtitle text color to blue on hover */
   }
   
   /* Optional: Change the title color on hover */
   .hover-card:hover .card-title {
-    color: #007bff !important; /* Change title text color to blue on hover */
+    color: #3752ff !important; /* Change title text color to blue on hover */
   }
 
 
