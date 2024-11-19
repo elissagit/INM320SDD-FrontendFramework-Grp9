@@ -90,3 +90,37 @@ main {
 .nav-item:hover .fa {
     color: white; /* Ensure icons are also white on hover */
 }
+
+nav .d-flex h6 {
+    padding-bottom: 30px; /* Adjust as needed */
+}
+nav .d-flex i {
+  vertical-align: middle;
+}
+
+
+/* Style for the number */
+.number {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000; /* You can change this color */
+    margin-top: 2px; /* Small space between text and number */
+  }
+  
+  /* Align the text and number vertically in each list item */
+  .list-group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .number {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+
+  .card-subtitle {
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px;
+    font-weight: 300;
+  }

@@ -15,11 +15,11 @@
     <div class="row">
       <!-- Nav Sidebar -->
       <nav class="col-md-2 bg-dark text-white">
-        <div class="d-flex align-items-center">
-          <i class="fa-solid fa-fire lighter-text" style="margin-right: 8px;"></i>
-          <h6 class="mb-0 lighter-text">Dashboard Kit</h6>
+        <div class="d-flex align-items-center justify-content-center">
+          <i class="fa-solid fa-fire lighter-text" style="font-size: 1.5rem; margin-right: 8px;"></i>
+          <h6 class="mb-0 lighter-text" style="line-height: 1.5;">Dashboard Kit</h6>
         </div>
-        <ul class="nav flex-column">
+        <ul class="nav flex-column mt-3">
           <li class="nav-item">
             <a href="#" class="nav-link text-white lighter-text">
               <i class="fa-solid fa-chart-pie"></i> Overview
@@ -107,14 +107,30 @@
             <article class="col-md-4">
               <div class="card border-0" style="width: 18rem;">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Resolved</li>
-                  <li class="list-group-item">Received</li>
-                  <li class="list-group-item">Average fisrt response time</li>
-                  <li class="list-group-item">Average response time</li>
-                  <li class="list-group-item">Resolution within SLA</li>
+                  <li class="list-group-item d-flex flex-column align-items-center">
+                    <h5 class="card-subtitle" style="font-size: 1rem; color: #a0a0a0; margin-bottom: 10px; margin-top: 10px; font-weight: 300;">Resolved</h5>
+                    <span class="number" style="margin-bottom: 10px;">449</span>
+                  </li>
+                  <li class="list-group-item d-flex flex-column align-items-center">
+                    <h5 class="card-subtitle" style="font-size: 1rem; color: #a0a0a0; margin-bottom: 10px; margin-top: 10px; font-weight: 300;">Received</h5>
+                    <span class="number" style="margin-bottom: 10px;">426</span>
+                  </li>
+                  <li class="list-group-item d-flex flex-column align-items-center">
+                    <h5 class="card-subtitle" style="font-size: 1rem; color: #a0a0a0; margin-bottom: 10px; margin-top: 10px; font-weight: 300;">Average first response time</h5>
+                    <span class="number" style="margin-bottom: 10px;">33m</span>
+                  </li>
+                  <li class="list-group-item d-flex flex-column align-items-center">
+                    <h5 class="card-subtitle" style="font-size: 1rem; color: #a0a0a0; margin-bottom: 10px; margin-top: 10px; font-weight: 300;">Average response time</h5>
+                    <span class="number" style="margin-bottom: 10px;">3h 8m</span>
+                  </li>
+                  <li class="list-group-item d-flex flex-column align-items-center">
+                    <h5 class="card-subtitle" style="font-size: 1rem; color: #a0a0a0; margin-bottom: 10px; margin-top: 10px; font-weight: 300;">Resolution within SLA</h5>
+                    <span class="number" style="margin-bottom: 10px;">94%</span>
+                  </li>
                 </ul>
               </div>
             </article>
+            
           </section>
           <!-- Overview: Unresolved tickets + Tasks -->
           <section class="row ">
