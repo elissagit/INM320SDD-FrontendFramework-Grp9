@@ -139,3 +139,7 @@ main {
     margin-bottom: 10px;
     font-weight: 300;
   }
+
+  header {
+    padding: 10px 0 40px;
+  }
