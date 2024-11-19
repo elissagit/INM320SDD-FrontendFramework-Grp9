@@ -162,3 +162,15 @@ main {
   }
 
 
+
+
+  /* White background for Today's Trends section */
+.today-trends-section {
+  background-color: #fff; /* White background */
+}
+
+/* Optional: White background for the individual cards within the section */
+.today-trends-card {
+  background-color: #fff; /* White background for the card */
+}
+
