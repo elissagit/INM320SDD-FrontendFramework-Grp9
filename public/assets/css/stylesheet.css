@@ -3,6 +3,10 @@ html, body {
     margin: 0;
 }
 
+main {
+  background-color: #f7f8fc;
+}
+
 .container-fluid {
     height: 100%;
 }
