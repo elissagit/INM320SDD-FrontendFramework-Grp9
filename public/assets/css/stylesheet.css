@@ -77,3 +77,16 @@ main {
     opacity: 0.6;  /* Make the icons lighter */
   }
 
+
+/* Very Light Hover Effect with Lighter Opacity */
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.039); /* Very light white with 10% opacity */
+}
+
+.nav-item:hover .nav-link {
+    color: white !important; /* Ensure the text color is white on hover */
+}
+
+.nav-item:hover .fa {
+    color: white; /* Ensure icons are also white on hover */
+}
