@@ -89,6 +89,7 @@ main {
 
 .nav-item:hover .fa {
     color: white; /* Ensure icons are also white on hover */
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -127,3 +128,6 @@ nav .d-flex i {
   }
 =======
 >>>>>>> dbe1d45fe62c12246feed063344c236a408d0c0a
+=======
+}
+>>>>>>> 2dcdcebb11b564d2c2756618cbb6a3420af8ff52
