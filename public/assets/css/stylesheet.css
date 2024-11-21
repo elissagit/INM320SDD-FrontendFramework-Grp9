@@ -19,7 +19,7 @@ nav {
   height: 100%;
 }
 
-/* // Sidebar link styling */
+/* Sidebar link styling */
 .nav-link {
   display: flex;
   align-items: center;  
@@ -31,6 +31,7 @@ nav {
   }
 }
 
+/* nav hover */
 .nav-item {
   margin-bottom: 0.5rem;  
   &:nth-last-child(2) {
@@ -53,7 +54,7 @@ nav {
   opacity: 0.4;  
 }
 
- 
+/* top card hover */
 .hover-card {
   background-color: white;  
   border: 1px solid #ddd;  
