@@ -1,205 +1,170 @@
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 main {
   background-color: #f7f8fc;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;  
 }
 
-.container-fluid {
-    height: 100%;
-}
-
-.row {
-    height: 100%;
+.container-fluid, .row {
+  height: 100%;
 }
 
 nav {
-    padding-top: 20px;
-    height: 100%;
-
+  padding-top: 20px;
+  height: 100%;
 }
 
-/* Additional styles for alignment in sidebar links */
+/* // Sidebar link styling */
 .nav-link {
   display: flex;
-  align-items: center; /* Aligns text and icon vertically */
-  padding: 0.5rem 1rem; /* Adjust padding as needed */
-  color: #ffffff; /* Ensures text color contrast on dark background */
-  text-decoration: none; /* Removes underline */
+  align-items: center;  
+  padding: 0.5rem 1rem;
+  color: #ffffff;  
+  text-decoration: none;  
+  i {
+    margin-right: 25px;  
+  }
 }
 
 .nav-item {
-  margin-bottom: 0.5rem; /* Adds space between items */
-}
-
-.nav-link i {
-  margin-right: 8px; /* Adds space between the icon and the text */
-}
-
-main {
-    height: 100%;
-    padding: 20px;
-    overflow-y: auto;  /* Scrollable if content overflows */
-}
-
-
-.nav-item:nth-last-child(2) {
-    margin-top: 20px; /* Adds space before the second to last link */
+  margin-bottom: 0.5rem;  
+  &:nth-last-child(2) {
+    margin-top: 20px;  
     padding-top: 10px;
-    border-top: 0.2px solid rgba(255, 255, 255, 0.464); /* Adds a white line above the second to last link */
+    border-top: 0.2px solid rgba(255, 255, 255, 0.464); 
+  }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.039); 
+    .nav-link {
+      opacity: 0.8;
+    }
+    i.fa {
+      opacity: 1;
+    }
+  }
 }
 
-
 .nav-link i {
-    margin-right: 25px; /* Adjust the value as needed */
-  }
+  opacity: 0.4;  
+}
+
  
-  
-  .hover-card:hover {
-    border-color: #3752ff; /* Bootstrap's primary blue for border */
-    color: #3752ff; /* Change text color to blue */
-    transition: all 0.3s ease; /* Smooth transition for border and text */
+.hover-card {
+  background-color: white;  
+  border: 1px solid #ddd;  
+  &:hover {
+    border-color: #3752ff;  
+    color: #3752ff;  
+    transition: all 0.3s ease;  
+    .card-subtitle {
+      color: #3752ff !important;  
+    }
+    .card-title {
+      color: #3752ff !important;  
+    }
   }
-  
-  /* Ensure that the card's background stays white */
-  .hover-card {
-    background-color: white; /* Set the background to white by default */
-    border: 1px solid #ddd; /* Optional: default border color */
+  .card-subtitle {
+    font-size: 1rem;  
+    margin-bottom: 10px;  
+    color: #a0a0a0;  
+    transition: color 0.3s ease;  
   }
-
-
-  .hover-card .card-subtitle {
-    font-size: 1rem; /* Adjust to make it smaller or larger */
-    margin-bottom: 10px; /* Adds space between the subtitle and the number */
-    color: #a0a0a0; /* Set the initial color to light gray */
-    transition: color 0.3s ease; /* Smooth transition for text color */
-  }
-
- /* Change subtitle color on hover */
-.hover-card:hover .card-subtitle {
-    color: #3752ff !important; /* Change subtitle text color to blue on hover */
-  }
-  
-  /* Optional: Change the title color on hover */
-  .hover-card:hover .card-title {
-    color: #3752ff !important; /* Change title text color to blue on hover */
-  }
-
-
-/* Lighter text for the sidebar */
-.lighter-text {
-    opacity: 0.4;  /* Adjust this value to make it lighter or darker */
-  }
-  
-/* Apply opacity to the icons specifically */
-.nav-link i {
-    opacity: 0.4;  /* Make the icons lighter */
 }
 
-.nav-item i{
+ 
+.lighter-text {
+  opacity: 0.4;  
+}
+
+.nav-item i {
   opacity: 0.4;
 }
-/* Very Light Hover Effect with Lighter Opacity */
-.nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.039); /* Light background on hover */
-}
 
-.nav-item:hover .nav-link {
-  
-  opacity: 0.8;
-}
-
-.nav-item:hover i.fa {
-  
-  opacity: 1;
-}
-
-/* Unresolved Tickets Card Padding */
+ 
 .unresolved-tickets-card {
-  padding: 20px; /* Adjust as needed */
+  padding: 20px;  
 }
 
-/* Unresolved List Group Item Padding */
+ 
 .unresolved-item {
-  padding: 15px 20px; /* Adjust the vertical and horizontal padding */
+  padding: 15px 20px;  
 }
 
-/* Unresolved Section Padding (Optional) */
+ 
 .unresolved-section {
-  padding: 30px 0; /* Adjust the top and bottom padding for the section */
+  padding: 30px 0;  
 }
 
-/* Style for the number */
+ 
 .number {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #000000; /* You can change this color */
-    margin-top: 2px; /* Small space between text and number */
-  }
-  
-  /* Align the text and number vertically in each list item */
-  .list-group-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000000;  
+  margin-top: 2px;  
+}
 
-  .number {
-    margin-bottom: 20px; /* Adjust the value as needed */
-  }
+ 
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .card-subtitle {
-    margin-top: 10px; /* Adjust as needed */
-    margin-bottom: 10px;
-    font-weight: 300;
-  }
+.number {
+  margin-bottom: 20px;  
+}
 
-  header {
-    padding: 5px 0 20px;
-  }
+.card-subtitle {
+  margin-top: 10px;  
+  margin-bottom: 10px;
+  font-weight: 300;
+}
 
-
+header {
+  padding: 5px 0 20px;
+}
 
 
-  /* White background for Today's Trends section */
 .today-trends-section {
-  background-color: #fff; /* White background */
+  background-color: #fff;  
 }
 
-/* Optional: White background for the individual cards within the section */
+
 .today-trends-card {
-  background-color: #fff; /* White background for the card */
+  background-color: #fff;  
 }
 
-/* Add padding to the Tasks card container */
+
 .card.tasks-card {
-  padding: 18px; /* Adjust as needed */
+  padding: 18px;  
 }
 
-/* Padding for list items inside the Tasks card */
+
 .card.tasks-card .list-group-item {
-  padding: 12px 17px; /* Adjust the vertical and horizontal padding */
+  padding: 12px 17px;  
 }
 
-/* Optional: Increase padding in the card-header for better spacing */
+
 .card.tasks-card .card-header {
-  padding: 16px 20px; /* Adjust header padding */
-  margin-bottom: 17px; /* Add space below the header */
+  padding: 16px 20px;  
+  margin-bottom: 17px;  
 }
 
-/* Optional: Add extra space between the two lines (header and list) */
+
 .card.tasks-card .card-header small {
-  margin-top: 10px; /* Space between the header title and the date */
+  margin-top: 10px;  
 }
 
 .profile-img {
   margin-left: 10px;
   border: white;
-  width: 30px; 
-  height: 30px; 
-  object-fit: cover; 
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
 }
-
